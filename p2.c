@@ -15,7 +15,6 @@ struct dA{
 //initialize a dynamic array
 int initDA(struct dA* a, int s){
 	a->size = s;
-	//printf("da init check\n");
 	a->index = 0;
 	a->vals = (int*)malloc(s*sizeof(int));
 	return 0;
